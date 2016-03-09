@@ -74,6 +74,7 @@ nav {
 	margin: 0 auto;
 	width: 100%;
 	background-color: #004a80;
+	margin-bottom: 60px;
 }
 
 nav ul {
@@ -110,4 +111,31 @@ nav a:hover {
 	nav li {
 		width: calc(100% / 4);
 	}
+}
+
+.title {
+	width: auto;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	background-color: #dabd88;
+	text-align: center;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+}
+
+#type-styles {
+	width: 400px;
+	height: auto;
+	background-color: #ffffff;
+	padding: 12px;
+	margin: 15px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius: 12px 12px 12px 12px;
+	-webkit-box-shadow: 2px 3px 4px 2px #a6a6a6;
+	box-shadow: 2px 3px 4px 2px #a6a6a6;
 }
