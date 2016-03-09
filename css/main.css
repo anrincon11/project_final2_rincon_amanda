@@ -107,7 +107,7 @@ nav a:hover {
 	}
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
 	nav li {
 		width: calc(100% / 4);
 	}
@@ -128,14 +128,80 @@ nav a:hover {
 	font-family: 'Lato', sans-serif;
 }
 
-#type-styles {
-	width: 400px;
-	height: auto;
+/* TYPE STYLES */
+
+@media (min-width: 300px) {
+	#type-styles {
+		text-align: center;
+		width: 85%;
+	}
+}
+
+@media (min-width: 900px) {
+	#type-styles {
+		float: left;
+	}
+}
+
+/* CLICKABLES */
+
+#type-styles,
+#clickables {
+	max-width: 400px;
+	margin: auto;
+	margin-bottom: 30px;
 	background-color: #ffffff;
 	padding: 12px;
-	margin: 15px;
 	-webkit-border-radius: 12px 12px 12px 12px;
 	border-radius: 12px 12px 12px 12px;
 	-webkit-box-shadow: 2px 3px 4px 2px #a6a6a6;
 	box-shadow: 2px 3px 4px 2px #a6a6a6;
+}
+
+#click,
+#submit {
+	display: block;
+	width: 100px;
+	margin-bottom: 20px;
+	padding: 10px;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 1px 1px 1px 1px #a6a6a6;
+	box-shadow: 1px 1px 1px 1px #a6a6a6;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#click {
+	background-color: #d62722;
+}
+
+#submit {
+	background-color: #004a80;
+}
+
+#submit:hover {
+	background-color: #35a6f8;
+}
+
+#click:hover {
+	background-color: #a61f1b;
+}
+
+#click a:visited,
+#submit a:visited {
+	color: #ffffff;
+}
+
+#links {
+	color: #35a6f8;
+}
+
+#links a:hover {
+	font-style: italic;
+}
+
+#links a:visited {
+	color: #35a6f8;
 }
