@@ -40,8 +40,32 @@ header {
 
 #logo {
 	max-width: 400px;
-	padding-bottom: 30px;
-	margin: 0 auto;
+	margin: auto;
+}
+
+#logo img {
+	width: 100%;
+	padding: 20px;
+	margin: auto;
+}
+
+@media (min-width: 300px) {
+	#logo {
+		margin: auto;
+		width: 50%;
+	}
+}
+
+@media (min-width: 600px) {
+	#logo img {
+		width: 80%;
+	}
+}
+
+@media (min-width: 900px) {
+	#logo img {
+		width: 100%;
+	}
 }
 
 /* NAVIGATION */
@@ -73,4 +97,17 @@ nav a {
 nav a:hover {
 	text-decoration: none;
 	color: #dabd88;
+}
+
+@media (min-width: 600px) {
+	nav li {
+		width: 20%;
+		display: inline-block;
+	}
+}
+
+@media (min-width: 800px) {
+	nav li {
+		width: calc(100% / 4);
+	}
 }
