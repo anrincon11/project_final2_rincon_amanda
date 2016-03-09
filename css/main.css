@@ -1,0 +1,76 @@
+@font-face {
+	font-family: Futura;
+	src: url("../fonts/Futura.ttf");
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url("../img/parchment.png");
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: Futura;
+	font-size: 40px;
+	color: #004a80;
+	text-shadow: 1px 1px 1px #636363;
+}
+
+h2 {
+	font-family: Futura;
+	font-size: 30px;
+	color: #d62722;
+}
+
+p {
+	line-height: 23px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header */
+
+header {
+	margin: 0 auto;
+}
+
+/* LOGO */
+
+#logo {
+	max-width: 400px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+nav {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #004a80;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav a {
+	display: block;
+	line-height: 50px;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+	font-family: Futura;
+	color: #ffffff;
+	border: none;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #dabd88;
+}
