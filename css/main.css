@@ -155,8 +155,7 @@ nav a:hover {
 
 /* CLICKABLES */
 
-#type-styles,
-#clickables {
+.container {
 	max-width: 550px;
 	margin: auto;
 	margin-bottom: 30px;
@@ -250,5 +249,34 @@ nav a:hover {
 	}
 	#links {
 		margin-top: 30px;
+	}
+}
+
+/* COLORS */
+
+#blocks {
+	padding-top: 20px;
+}
+
+#blocks img {
+	max-width: 200px;
+}
+
+@media (min-width: 300px) {
+	#colors {
+		margin: auto;
+		width: 85%;
+	}
+	#blocks {
+		margin: auto;
+	}
+	#blocks img {
+		width: calc(100% / 3.25);
+	}
+}
+
+@media (min-width: 1200px) {
+	#colors {
+		float: right;
 	}
 }
