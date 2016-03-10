@@ -39,7 +39,6 @@ a {
 	background-image: url("../img/eiffel_tower.png");
 	background-repeat: no-repeat;
 	background-position: bottom right;
-	opacity: 10%;
 }
 
 /* Header */
@@ -276,4 +275,18 @@ nav a:hover {
 	#colors {
 		float: right;
 	}
+}
+
+footer {
+	margin: 0 auto;
+	padding: 10px 0;
+	font-family: 'Lato', sans-serif;
+	background-color: #004a80;
+	clear: both;
+}
+
+footer p {
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
 }
