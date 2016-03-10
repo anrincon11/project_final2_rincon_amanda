@@ -141,6 +141,12 @@ nav a:hover {
 	}
 }
 
+@media (min-width: 600px) {
+	#type-styles {
+		text-align: left;
+	}
+}
+
 @media (min-width: 1200px) {
 	#type-styles {
 		float: left;
