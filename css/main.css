@@ -292,8 +292,37 @@ nav a:hover {
 	}
 }
 
+/* PHOTOS */
+
+#photos {
+	max-width: 900px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: #ffffff;
+	padding: 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius: 12px 12px 12px 12px;
+	-webkit-box-shadow: 2px 3px 4px 2px #a6a6a6;
+	box-shadow: 2px 3px 4px 2px #a6a6a6;
+	clear: both;
+}
+
+#images {
+	padding-top: 20px;
+	max-width: 668px;
+	margin: auto;
+}
+
+#images img {
+	max-width: 200px;
+	margin: 10px;
+}
+
+/* FOOTER */
+
 footer {
 	margin: 0 auto;
+	margin-top: 50px;
 	padding: 10px 0;
 	font-family: 'Lato', sans-serif;
 	background-color: #004a80;
