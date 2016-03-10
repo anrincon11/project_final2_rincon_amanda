@@ -15,11 +15,11 @@ This assignment challenged us to create a completely responsive website from scr
 
 ## GitHub Repository
 
-[Amanda's Final Project Part 2]()
+[Amanda's Final Project Part 2](https://github.com/anrincon11/project_final2_rincon_amanda)
 
 ## Web Link
 
-[Amanda's Project on the web!]()
+[Amanda's Project on the web!](http://www.amandarincon.com/project_final2_rincon_amanda/)
 
 ### Comments
 
