@@ -282,7 +282,7 @@ nav a:hover {
 		margin: auto;
 	}
 	#blocks img {
-		width: 32.5%;
+		width: 32.25%;
 	}
 }
 
@@ -316,6 +316,34 @@ nav a:hover {
 #images img {
 	max-width: 200px;
 	margin: 10px;
+}
+
+@media (min-width: 300px) {
+	#photos {
+		width: 85%;
+	}
+	#images {
+		margin: auto;
+		text-align: center;
+	}
+}
+
+@media (min-width: 600px) {
+	#images img {
+		width: 26%;
+	}
+}
+
+@media (min-width: 1200px) {
+	#photos {
+		width: 100%;
+	}
+	#images {
+		width: 100%;
+	}
+	#images img {
+		width: auto;
+	}
 }
 
 /* FOOTER */
