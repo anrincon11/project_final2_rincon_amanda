@@ -170,11 +170,30 @@ nav a:hover {
 		text-align: center;
 		width: 85%;
 	}
+	#type-styles  h1 {
+		font-size: 30px;
+	}
+	#type-styles  h2 {
+		font-size: 25px;
+	}
+	#type-styles  p {
+		font-size: 15px;
+	}
 }
 
 @media (min-width: 600px) {
 	#type-styles {
 		text-align: left;
+		width: 100%;
+	}
+	#type-styles  h1 {
+		font-size: 40px;
+	}
+	#type-styles  h2 {
+		font-size: 35px;
+	}
+	#type-styles  p {
+		font-size: 17px;
 	}
 }
 
