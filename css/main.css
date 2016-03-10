@@ -13,6 +13,17 @@ html {
 	src: url("../fonts/Futura.ttf");
 }
 
+.visuallyhidden {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
 .site-container {
 	max-width: 1200px;
 	margin: auto;
@@ -24,14 +35,14 @@ body {
 	background-attachment: fixed;
 }
 
-h1 {
+h3 {
 	font-family: Futura;
 	font-size: 40px;
 	color: #004a80;
 	text-shadow: 1px 1px 1px #636363;
 }
 
-h2 {
+h4 {
 	font-family: Futura;
 	font-size: 30px;
 	color: #d62722;
@@ -170,10 +181,10 @@ nav a:hover {
 		text-align: center;
 		width: 85%;
 	}
-	#type-styles  h1 {
+	#type-styles  h3 {
 		font-size: 30px;
 	}
-	#type-styles  h2 {
+	#type-styles  h4 {
 		font-size: 25px;
 	}
 	#type-styles  p {
@@ -186,10 +197,10 @@ nav a:hover {
 		text-align: left;
 		width: 100%;
 	}
-	#type-styles  h1 {
+	#type-styles  h3 {
 		font-size: 40px;
 	}
-	#type-styles  h2 {
+	#type-styles  h4 {
 		font-size: 35px;
 	}
 	#type-styles  p {
